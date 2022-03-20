@@ -4,18 +4,15 @@ import { Box } from "@mui/system";
 import { Card } from "@mui/material";
 export const contact = () => {
   return (
-    <div>
+    <div id="contact">
       {" "}
       <Typography variant="h2" color="black" sx={{ mt: 4 }}>
         <Grid container>
           <Grid item md={12} xs={12} align={"center"}>
             Contact
           </Grid>
-          <Grid item md={5} xs={12}>
-              <img src="assets/handshake.jpg" class="img-fluid" />
-          </Grid>
           
-          <Grid item md={6} xs={12} align={"center"} sx={{ mt: 2, m: 0.5 }}>
+          <Grid item xs={12} style = {{display:'flex',justifyContent:'center'}} sx={{ mt: 2, m: 0.5 }}>
           <form action="https://formsubmit.co/2c6a356f49ba263ef092ef2401512fa3" method="POST">
             <TextField
             name="name"

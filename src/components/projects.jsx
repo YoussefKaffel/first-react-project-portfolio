@@ -8,7 +8,7 @@ export const projects = () => {
     <div style ={{
         backgroundColor:'#c6a1f0'
       }
-      }><Typography variant="h2" color="black" align="center">
+      } id="projects"><Typography variant="h2" color="black" align="center">
     <Grid container>
       <Grid item xs={12}>
         <Box sx={{ m: 4 }}>What i've done</Box>

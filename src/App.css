@@ -1,3 +1,7 @@
-.nav-link {
-color: rgb(78, 28, 28);
+.navbar-nav .nav-item .nav-link {
+    color: red;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: pink;
 }

@@ -6,7 +6,7 @@ import { Typography } from "@mui/material";
 export default class Responsive extends Component {
   render() {
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -14,6 +14,7 @@ export default class Responsive extends Component {
         speed: 3000,
         autoplaySpeed: 3000,
         cssEase: "linear",
+        adaptiveHeight:true,
       responsive: [
         {
           breakpoint: 1000,

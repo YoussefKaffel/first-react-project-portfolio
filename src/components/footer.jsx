@@ -11,17 +11,15 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 export default function footer() {
   return (
-    <div
-      style={{
-        backgroundColor: "#211221",
-      }}
-    >
+    <div style={{backgroundColor: "#211221",'z-index': 10 , position:'relative'}}>
       <Typography variant="h2" color="black">
         <Grid container align={'center'}>
           <Grid item md={4} xs={6}>
             <Box sx={{   m: 1.5  }}>
             <Button
-                 
+                  onClick={() => {
+                    window.open('tel:+21623911695');
+                  }}
                 variant="contained"
                 style={{
                   fontFamily: "Josefin Sans",
