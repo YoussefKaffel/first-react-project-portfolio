@@ -20,7 +20,7 @@ const intro = () => {
       <Typography variant="h2" color="black">
         <Grid container>
           <Grid item md={7} xs={12}>
-            <Box sx={{ ml: 16, m: 12 }}>
+            <Box sx={{ ml: 16, m: 12 ,minHeight:'50vh' }}>
               Hello !
               <Typewriter
                 options={{

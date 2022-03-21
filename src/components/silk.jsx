@@ -19,7 +19,7 @@ export default class Responsive extends Component {
         {
           breakpoint: 1000,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
             dots: true
@@ -43,7 +43,8 @@ export default class Responsive extends Component {
       ]
     };
     return (
-      <div>
+      <div style={{zIndex:"10",margin:0,
+    padding:0}} >
         <Slider {...settings}>
         {dskills.map((skill) => (
            <Typography><Skill sx={{ m: 4 }} key={skill.title} skill={skill} /></Typography>

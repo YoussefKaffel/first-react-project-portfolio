@@ -1,8 +1,11 @@
 import React from "react";
 import { Typography, Grid, TextField, Button } from "@mui/material";
-import { Box } from "@mui/system";
-import { Card } from "@mui/material";
 export const contact = () => {
+    const handleS = (e)=> {
+      e.preventDefault();
+      alert("Thank you ! i will replay as soon as possible :) ")
+    }
+  
   return (
     <div id="contact">
       {" "}
@@ -13,7 +16,9 @@ export const contact = () => {
           </Grid>
           
           <Grid item xs={12} style = {{display:'flex',justifyContent:'center'}} sx={{ mt: 2, m: 0.5 }}>
-          <form action="https://formsubmit.co/2c6a356f49ba263ef092ef2401512fa3" method="POST">
+          <form action="https://formsubmit.co/2c6a356f49ba263ef092ef2401512fa3" method="POST" onSubmit={handleS}>
+            
+          
             <TextField
             name="name"
               label="Name"
@@ -30,12 +35,18 @@ export const contact = () => {
               required
             />
             <TextField
+             name="Text"
               label="Text"
               variant="outlined"
               fullWidth
               rows={4}
               multiline
               required
+            />
+            <TextField
+            name="_captcha"
+            value="false"
+            type="hidden"
             />
             <Button
               type="submit"

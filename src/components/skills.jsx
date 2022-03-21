@@ -6,7 +6,9 @@ import Silk from "./silk"
 import { dskills } from "../data/dskills";
 export const skills = () => {
   return (
-    <div  id="skills" >
+    <div  id="skills" style={{zIndex:"10" , margin:0,
+      padding:0,
+      overflowX:"hidden"}}>
       <Typography variant="h2" color="black" align="center">
         <Grid container>
           <Grid item xs={12}>

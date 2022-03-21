@@ -4,7 +4,8 @@ import { CardMedia } from '@mui/material'
 
 export const project = ({img}) => {
   return (
-<Card>
+<Card style={{margin:0,
+    padding:0}}>
 <CardMedia
         component="img"
         alt="green iguana"

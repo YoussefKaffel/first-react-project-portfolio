@@ -6,7 +6,8 @@ import Typography from '@mui/material/Typography';
 
 export default function skill({skill}) {
   return (
-    <Card item md={4}  sx={{ maxWidth: 350 }} elevation={12} >
+    <Card item md={4}  sx={{ maxWidth: 350 }} elevation={12} style={{zIndex:"10",margin:0,
+      padding:0}} >
       <CardMedia
         component="img"
         alt="green iguana"

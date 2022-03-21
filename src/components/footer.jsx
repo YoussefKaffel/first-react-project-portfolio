@@ -17,6 +17,7 @@ export default function footer() {
           <Grid item md={4} xs={6}>
             <Box sx={{   m: 1.5  }}>
             <Button
+           
                   onClick={() => {
                     window.open('tel:+21623911695');
                   }}
@@ -33,27 +34,7 @@ export default function footer() {
               >  <CallIcon/>  Telephone : 23 911 695</Button>
             </Box>
           </Grid>
-          <Grid item md={4} xs={6}>
-            <Box sx={{  m: 1.5  }}>
-              <Button
-              onClick={() => {
-                window.open('mailto:youssef.kaffel99@gmail.com');
-              }}
-                variant="contained"
-                style={{
-                  fontFamily: "Josefin Sans",
-                  maxWidth: "400px",
-                  maxHeight: "300px",
-                  minWidth: "150px",
-                  minHeight: "20px",
-                  color : '#211221' ,
-                  backgroundColor : '#baabba'
-                }}
-              ><MailIcon/>Mail:youssef.kaffel99@gmail.com
-             
-              </Button>
-            </Box>
-          </Grid>
+          
           <Grid item md={4} xs={6}>
             <Box sx={{   m: 1.5  }}>
             <Button
@@ -75,7 +56,7 @@ export default function footer() {
               </Button>
             </Box>
           </Grid>
-          <Grid item md={6} xs={6}>
+          <Grid item md={4} xs={6}>
             <Box sx={{  m: 1.5 }}>
             <Button
             onClick={() => {
@@ -114,6 +95,27 @@ export default function footer() {
                 }}
               >
                <GitHubIcon/> GitHub
+              </Button>
+            </Box>
+          </Grid>
+          <Grid item md={6} xs={12}>
+            <Box sx={{  m: 1.5  }}>
+              <Button
+              onClick={() => {
+                window.open('mailto:youssef.kaffel99@gmail.com');
+              }}
+                variant="contained"
+                style={{
+                  fontFamily: "Josefin Sans",
+                  maxWidth: "400px",
+                  maxHeight: "300px",
+                  minWidth: "150px",
+                  minHeight: "20px",
+                  color : '#211221' ,
+                  backgroundColor : '#baabba'
+                }}
+              ><MailIcon/>Mail:youssef.kaffel99@gmail.com
+             
               </Button>
             </Box>
           </Grid>

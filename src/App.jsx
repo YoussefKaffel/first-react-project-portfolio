@@ -3,6 +3,7 @@ import Intro from "./components/Intro"
 import  Skills  from "./components/skills";
 import Projects from "./components/projects"
 import Contact from "./components/contact"
+import About from "./components/about"
 import Footer from "./components/footer"
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css'
@@ -15,7 +16,7 @@ const App = () => {
 
   const particlesLoaded = (container) => {
     console.log(container);}
-  return <div> 
+  return <div style={{maxWidth:"100vw"}}> 
      <Particles style={{'z-index': -1 , position:'absolute'}}
       id="tsparticles"
       init={particlesInit}
@@ -97,6 +98,7 @@ const App = () => {
    <ResponsiveAppBar sx={{m:4}}/>
     <Intro/>
     <FloatButton />
+    <About />
     <Skills sx={{m:4}}/>
     <Projects/>
     <Contact />
