@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,gCACI,SACJ,CACA,6EAEI,UACJ","file":"main.a25877f9.chunk.css","sourcesContent":[".navbar-nav .nav-item .nav-link {\r\n    color: red;\r\n}\r\n.navbar-nav .nav-item.active .nav-link,\r\n.navbar-nav .nav-item:hover .nav-link {\r\n    color: pink;\r\n}\r\n"]}
